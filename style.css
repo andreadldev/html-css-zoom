@@ -47,6 +47,21 @@ header {
     overflow-y: auto;
 }
 
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.layout img {
+    object-fit: fill;
+    height: 138px;
+    width: 244px;
+    margin: 10px 5px;
+
+}
+
 /* -------------FOOTER------------- */
 
 footer {
@@ -76,6 +91,8 @@ footer {
 i {
     display: flex;
     justify-content: center;
+    position: relative;
+    bottom: 5px;
 }
 
 #share i {
